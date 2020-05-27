@@ -15,6 +15,18 @@ android {
         versionName "1.0"
         resConfig "en"
 
+        bundle {
+            language {
+                enableSplit = false
+            }
+            density {
+                enableSplit = true
+            }
+            abi {
+                enableSplit = true
+            }
+        }
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -41,12 +53,12 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0'
 
     //Android Jetpack Navigation
-    def nav_version = "2.3.0-alpha06"
+    def nav_version = "2.3.0-beta01"
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
 
     //Firebase Analytics
-    implementation 'com.google.firebase:firebase-analytics:17.4.1'
+    implementation 'com.google.firebase:firebase-analytics:17.4.2'
 
     //Firebase Authentication
     implementation 'com.google.firebase:firebase-auth:19.3.1'
