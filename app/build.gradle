@@ -6,8 +6,13 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     defaultConfig {
-        applicationId "com.application.knowalledge"
+        applicationId "com.developerdepository.knowalledge"
         minSdkVersion 23
         targetSdkVersion 29
         multiDexEnabled true
@@ -50,21 +55,21 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     //Google Material Design Library
-    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.google.android.material:material:1.3.0-alpha01'
 
     //Android Jetpack Navigation
-    def nav_version = "2.3.0-beta01"
+    def nav_version = "2.3.0"
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
 
     //Firebase Analytics
-    implementation 'com.google.firebase:firebase-analytics:17.4.2'
+    implementation 'com.google.firebase:firebase-analytics:17.4.4'
 
     //Firebase Authentication
-    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
 
     //Firebase Cloud Firestore
-    implementation 'com.google.firebase:firebase-firestore:21.4.3'
+    implementation 'com.google.firebase:firebase-firestore:21.5.0'
 
     //Third Party Libraries
     implementation 'com.wang.avi:library:2.1.3'                            //Custom Progress Library
@@ -72,4 +77,6 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     implementation 'com.tapadoo.android:alerter:2.0.4'                     //Alert Library
     implementation 'com.github.d-max:spots-dialog:1.1@aar'                 //Spots Progress Library
+    implementation 'com.github.hajiyevelnur92:intentanimation:1.0'         //Intent Animation Library
+    implementation "com.github.skydoves:powermenu:2.1.3"                   //Power Menu Library
 }

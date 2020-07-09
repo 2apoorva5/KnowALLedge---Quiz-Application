@@ -1,6 +1,56 @@
 <resources>
     <string name="app_name">knowALLedge</string>
+    <string name="app_name1">know</string>
+    <string name="app_name2">ALL</string>
+    <string name="app_name3">edge</string>
+    <string name="app_powered_by1">Powered by</string>
+    <string name="app_powered_by2">Developer Depository</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_greetings1">Welcome!</string>
+    <string name="welcome_greetings2">We\'re taking you in..</string>
+    <string name="welcome_feedback_default">Initializing..</string>
+    <string name="welcome_feedback1">Checking User Account..</string>
+    <string name="welcome_feedback2">Creating Account..</string>
+    <string name="welcome_feedback3">Account Created..</string>
+    <string name="welcome_feedback4">Logged in..</string>
+
+    <string name="alerter_error">Whoops! There was some ERROR!</string>
+
+    <string name="list_header1">Choose a category</string>
+    <string name="list_header2">Select any one category from below to test your knowledge in the field.</string>
+
+    <string name="details_category_title">Category Title</string>
+    <string name="details_category_desc">Category Description</string>
+    <string name="details_difficulty_text">Difficulty</string>
+    <string name="details_questions_text">Total Questions</string>
+    <string name="details_score_text">Your Last Score</string>
+    <string name="details_start_quiz_text">Start Quiz</string>
+
+    <string name="default_value">-</string>
+
+    <string name="quiz_title_default">Loading Quiz..</string>
+    <string name="ques_text">Question</string>
+    <string name="ques_no_default">0</string>
+    <string name="timer_default">20</string>
+    <string name="question_default">Loading Question..</string>
+    <string name="option1_default">Option1</string>
+    <string name="option2_default">Option2</string>
+    <string name="option3_default">Option3</string>
+    <string name="option4_default">Option4</string>
+    <string name="quiz_feedback_default">Verifying Answer..</string>
+    <string name="quiz_feedback_timeup">Time\'s up! Not Answered!</string>
+    <string name="quiz_feedback_correct">Correct Answer</string>
+    <string name="quiz_next_ques_text">Next Question</string>
+    <string name="quiz_submit_results_text">Submit Results</string>
+
+    <string name="results_title">Results</string>
+    <string name="results_percent_default">100%</string>
+    <string name="results_ca_text">Correct Answers</string>
+    <string name="results_wa_text">Wrong Answers</string>
+    <string name="results_qm_text">Questions Missed</string>
+    <string name="results_start_over_text">Start Over</string>
+
+    <string name="list_view_quiz">View Quiz</string>
+
+    <string name="progress_message">Submitting Results..</string>
 </resources>

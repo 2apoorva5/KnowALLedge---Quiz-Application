@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.application.knowalledge.StartFragment"
+        android:name="com.developerdepository.knowalledge.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start">
         <action
@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.application.knowalledge.WelcomeFragment"
+        android:name="com.developerdepository.knowalledge.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome">
         <action
@@ -35,7 +35,7 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.application.knowalledge.ListFragment"
+        android:name="com.developerdepository.knowalledge.ListFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list">
         <action
@@ -49,7 +49,7 @@
 
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.application.knowalledge.DetailsFragment"
+        android:name="com.developerdepository.knowalledge.DetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_details">
         <action
@@ -67,7 +67,7 @@
 
     <fragment
         android:id="@+id/quizFragment"
-        android:name="com.application.knowalledge.QuizFragment"
+        android:name="com.developerdepository.knowalledge.QuizFragment"
         android:label="fragment_quiz"
         tools:layout="@layout/fragment_quiz">
         <action
@@ -93,7 +93,7 @@
 
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.application.knowalledge.ResultFragment"
+        android:name="com.developerdepository.knowalledge.ResultFragment"
         android:label="fragment_result"
         app:enterAnim="@anim/fade_in_animation"
         app:exitAnim="@anim/fade_out_animation"
